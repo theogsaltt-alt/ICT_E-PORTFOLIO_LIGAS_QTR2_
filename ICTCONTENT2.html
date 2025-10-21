@@ -1,0 +1,676 @@
+<!--TLE CONTENTS-->
+<!DOCTYPE html>
+<head>
+<title>ICT Lessons</title>
+<link rel="stylesheet" href="lessons.css" type="text/css">
+</head>
+<body class="body">
+
+<header>
+<nav>
+<div class="nav">
+<a href="APCONTENTS.html" target="_self">✧ NEXT -› ✧</a>
+<a href="index.html" target="_self">☽ HOMEPAGE ☾</a>
+<a href="mailto:chiaramtlaltt@gmail.com" target="_blank">✉ E-MAIL ME! ✉</a>
+</div>
+</nav>
+</header>
+
+<div class="container">
+
+
+<div class="header">
+<div style="background-color:white; text-align:center;color:#2952a3;">
+<h1> ICT CONTENTS </h1>
+</div>
+</div>
+
+<div class="lessons">
+
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> Lesson 4: </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="lessonsandimg">
+<div class="textblock">
+<h1>CSS Rule Structure</h1>
+<p>A CSS rule consists of two main parts:</p>
+<ul>
+<li>Selector: defines which HTML element(s) the rule applies to.</li>
+<li>Style Declarations: define how those elements should appear.</li>
+</ul>
+</div>
+
+<div class="textblock">
+<h1>Basic Format of a CSS Style Rule</h1>
+<ul>
+<li>For Inline Style Rule:</li>
+</ul>
+<pre><code>&lt;tag style="style declaration"&gt;
+&lt;tag style="property1:value; property2:value; property3:value;"&gt;
+</code></pre>
+<ul>
+<li>For Document-Level and External Style Sheets:</li>
+</ul>
+<pre><code>selector { style declarations }
+selector { property1:value; property2:value; property3:value; }
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Style Properties</h1>
+<p>CSS style properties are grouped into six main categories:</p>
+<ul>
+<li>Fonts</li>
+<li>Colors and Backgrounds</li>
+<li>Text</li>
+<li>Boxes and Layout</li>
+<li>Lists</li>
+<li>Tag Classifications</li>
+</ul>
+</div>
+
+<div class="textblock">
+<h1>Classes: What are they?</h1>
+<p>A classis a user-defined selector used to apply a specific style to one or more HTML elements.</p>
+<ul>
+<li>Used to apply a style rule to specific HTML tags.</li>
+<li>Controls individual HTML element formatting.</li>
+<li>Reusable style definitions — one class can style multiple elements.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Defining Classes in CSS</h1>
+<ul>
+<li>Classes are defined using a period (<code>.</code>).</li>
+<li>Two methods to write a class:
+<ol>
+<li>Element + Class: <code>p.golden { color: blue; }</code></li>
+<li>Class Only: <code>.sodapop { color: red; }</code></li>
+</ol>
+</li>
+<li>In HTML, apply a class using the <code>class="classname"</code> attribute.</li>
+</ul>
+</div>
+
+<div class="textblock">
+<h1>Examples</h1>
+<img src="classexamples.png" alt="class examples" style="border-radius:15px; width: 500px;">
+<p>Note: One element can have multiple classes, and one class can be applied to many elements.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Class Selector</h1>
+<p>A <strong>Class Selector</strong> applies styles to elements with a specific class name.</p>
+<h3>Element + Class Selector</h3>
+<p>This selector targets only a specific element with a given class name.</p>
+
+      <pre><code>p.note {
+  color: blue;
+  font-size: 18px;
+}
+
+</code></pre>
+</div>
+<div class="textblock" class="table">
+<table border="1" cellpadding="8" cellspacing="0">
+<tr>
+<th>Selector Type</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Class Selector</td>
+<td><code>.classname</code></td>
+<td>Applies to <strong>any element</strong> with that class.</td>
+</tr>
+<tr>
+<td>Element + Class Selector</td>
+<td><code>p.classname</code></td>
+<td>Applies only to that <strong>specific element</strong> with that class.</td>
+</tr>
+</table>
+
+<p><strong>Summary:</strong></p>
+<ul>
+ <li><code>.classname</code> → any element with that class.</li>
+<li><code>element.classname</code> → only that element type with that class.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Grouping Selectors</h1>
+<p>You can group multiple selectors in a single CSS rule to apply the same styles to different elements.</p>
+<h1>Sample Code</h3>
+<pre><code>/* Instead of writing: */
+h1 { color: blue; }
+p { color: blue; }
+
+/* You can group them like this: */
+h1, p { color: blue; }
+</code></pre>
+
+<p><strong>Tip:</strong> Grouping selectors reduces redundancy and keeps your CSS clean and efficient.</p>
+</section>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Sample Code</h1>
+<div class="samplecodes">
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Dimensions&lt;/title&gt;
+&lt;style&gt;
+
+.HasDimensions h1 {
+background-color: yellow;
+font-family: Arial, Verdana;
+font-size: 20px;
+width: 50%;
+}
+
+.HasDimensions p {
+background-color: blue;
+font-family: Arial, Verdana;
+font-size: 40px;
+width: 50%;
+}
+
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body style="background-image:url('hkdltheme-park-1280x720-new.jpg');" class="HasDimensions"&gt;
+  &lt;h1 align=&gt;Twinkle, Twinkle Little Star&lt;/h1&gt;
+  &lt;p&gt;Twinkle, twinkle little star, how I wonder what you are.&lt;/p&gt;
+  &lt;p &gt;Up above the world so high, like a diamond in the sky.&lt;/p&gt;
+  &lt;p&gt;Twinkle, twinkle, little star, how I wonder what you are.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</div>
+<h1>Browser Input:</h1>
+<nav class="navbarbrowser">
+<a href="samplecodee.html"> Click Here! </a>
+</nav>
+</div>
+</div>
+</div>
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> Lesson 5: </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Types of CSS Selectors</h1>
+<ol>
+<li>Class Selector</li>
+<li>Element Selector (Tag Selector)</li>
+<li>ID Selector</li>
+<li>Universal Selector</li>
+<li>Group Selector</li>
+<li>Attribute Selector</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Class Selector</h1>
+<p>The class selector allows you to sellect a class of your own in CSS and apply the styling in HTML.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="classselector.png" alt="samplecode" style="border-radius:15px;">
+<h1>Browser Input:</h1>
+<img src="classselectorbrowser.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Element Selector</h1>
+<p>The element selector selects specific HTML elements (like <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, or <code>&lt;h1&gt;</code>) and applies CSS to them.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="elementseclector.png" alt="samplecode" style="border-radius:15px;">
+</div>
+<div class="textblock">
+<h1>Browser Input:</h1>
+<img src="elementselectorbrowserinput.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>ID Selector</h1>
+<p>The ID selector is used to style a unique element on a page. It’s defined by using a hash (#) and targets the id attribute of an HTML element</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="idselector.png" alt="samplecode" style="border-radius:15px;">
+</div>
+<div class="textblock">
+<h1>Browser Input:</h1>
+<img src="idselectorbrowser.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Universal Selector</h1>
+<p>The universal selector (*) selects every single HTML element on the page</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="universalselector.png" alt="samplecode" style="border-radius:15px;">
+</div>
+<div class="textblock">
+<h1>Browser Input:</h1>
+<img src="universalselectorbrowser.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Group Selector</h1>
+<p>The group selector allows you to apply the same style to multiple elements by separating them with commas.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="groupselector.png" alt="samplecode" style="border-radius:15px;">
+</div>
+<div class="textblock">
+<h1>Browser Input:</h1>
+<img src="groupselectorbrowser.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1> Attribute Selector</h1>
+<p>The attribute selector styles elements based on specific attributes or attribute values.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example Code:</h1>
+<img src="attributeselector.png" alt="samplecode" style="border-radius:15px;">
+<h1>Browser Input:</h1>
+<img src="attributeselectorbrowser.png" alt="browserinput" style="border-radius:15px;">
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>When to Use Each Selector</h1>
+<table border="1" cellpadding="8" cellspacing="0" class="table">
+<tr>
+<th>Selector Type</th>
+<th>When to Use</th>
+</tr>
+<tr>
+<td><strong>Class Selector</strong></td>
+<td>When you want to apply the same style to multiple elements that share a common purpose.</td>
+</tr>
+<tr>
+<td><strong>ID Selector</strong></td>
+<td>When styling a unique element that appears only once on a page (e.g., header, footer).</td>
+</tr>
+<tr>
+<td><strong>Element Selector</strong></td>
+<td>When styling all occurrences of a specific HTML tag (e.g., all &lt;p&gt; or &lt;h1&gt;).</td>
+</tr>
+<tr>
+<td><strong>Universal Selector</strong></td>
+<td>When you want to style all elements at once, usually to reset defaults (margins, padding).</td>
+</tr>
+<tr>
+<td><strong>Group Selector</strong></td>
+<td>When multiple elements share the same style — helps reduce redundancy.</td>
+</tr>
+<tr>
+<td><strong>Attribute Selector</strong></td>
+<td>When styling elements based on their HTML attributes or attribute values.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> Lesson 6: </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Setting Dimensions</h1>
+<p>CSS can be used to manage dimensions such as visibility, width, or height of HTML elements.</p>
+<h1>Properties for Dimensions</h1>
+<table border="1" cellpadding="8" cellspacing="0" class="table">
+<tr>
+<th>Property</th>
+<th>Definition</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>visibility</td>
+<td>Indicates if an element is visible or hidden</td>
+<td>
+visibility: visible: default value, element is visible<br>
+visibility: hidden: element is hidden (still takes up space)<br>
+visibility: collapse: used on table rows, columns, etc.
+</td>
+</tr>
+<tr>
+<td>width</td>
+<td>Indicates the width</td>
+<td>width: 200px</td>
+</tr>
+<tr>
+<td>height</td>
+<td>Indicates the height</td>
+<td>height: auto</td>
+</tr>
+<tr>
+<td>line-height</td>
+<td>Indicates line spacing</td>
+<td>line-height: 12px</td>
+</tr>
+<tr>
+<td>max-height</td>
+<td>Indicates the maximum height</td>
+<td>max-height: 12px</td>
+</tr>
+<tr>
+<td>min-height</td>
+<td>Indicates the minimum height</td>
+<td>min-height: 12px</td>
+</tr>
+<tr>
+<td>max-width</td>
+<td>Indicates the maximum width</td>
+<td>max-width: 12px</td>
+</tr>
+<tr>
+<td>min-width</td>
+<td>Indicates the minimum width</td>
+<td>min-width: 12px</td>
+</tr>
+</table>
+<p>This CSS feature is useful for controlling paragraphs, tables, and other elements.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example: Height & Visibility</h1>
+<div class="samplecodes">
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body {background-color:#DAF02D;}
+#myDIV {height:300px; background-color:#33EBC0;}
+span {background:lightblue; visibility:visible;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1 align="center"&gt;The visibility property&lt;/h1&gt;
+&lt;div id="myDIV"&gt;
+In this paragraph, the &lt;span&gt;blue span&lt;/span&gt; changes the visibility value.
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</div>
+<h1>Browser Input:</h1>
+<nav class="navbarbrowser">
+<a href="height_visibility.html"> Click Here! </a>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example: Width & Visibility</h1>
+<div class="samplecodes">
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body {background-color:#DAF02D;}
+#myDIV {width:300px; background-color:#33EBC0;}
+span {background:lightblue; visibility:hidden;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1 align="center"&gt;The visibility property&lt;/h1&gt;
+&lt;div id="myDIV"&gt;
+In this paragraph, the &lt;span&gt;blue span&lt;/span&gt; changes the visibility value.
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</div>
+<h1>Browser Input:</h1>
+<nav class="navbarbrowser">
+<a href="width_visibility.html"> Click Here! </a>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example: Dimensions</h1>
+<div class="samplecodes">
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Dimensions&lt;/title&gt;
+&lt;style&gt;
+.NoDimensions {
+background-color: pink;
+font-family: Times, Georgia;
+font-size: 30px;
+}
+
+.HasDimensions {
+background-color: yellow;
+font-family: Arial, Verdana;
+font-size: 20px;
+width: 50%;
+}
+
+.Hidden {
+background-color: lightblue;
+font-family: Arial, Verdana;
+font-size: 12px;
+visibility: hidden;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body style="background-image:url('hkdltheme-park-1280x720-new.jpg');"&gt;
+  &lt;h1 align="center"&gt;Twinkle, Twinkle Little Star&lt;/h1&gt;
+  &lt;p class="NoDimensions"&gt;Twinkle, twinkle little star, how I wonder what you are.&lt;/p&gt;
+  &lt;p class="Hidden"&gt;Up above the world so high, like a diamond in the sky.&lt;/p&gt;
+  &lt;p class="HasDimensions"&gt;Twinkle, twinkle, little star, how I wonder what you are.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</div>
+<h1>Browser Input:</h1>
+<nav class="navbarbrowser">
+<a href="dimensions.html"> Click Here! </a>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Pseudo-Classes and Links</h1>
+<p>Pseudo-classes are predefined selectors (not user-defined like classes) that apply styles to elements in specific states.  For example, the anchor element (&lt;a&gt;) supports pseudo-classes like :link, :visited, :hover, and :active.</p>
+<h1>Anchor Pseudo-Classes</h1>
+<ul>
+<li>link: for unvisited hyperlinks.</li>
+<li>visited: for visited hyperlinks.</li>
+<li>hover: for when the mouse hovers over the link.</li>
+<li>active: for when the link is being clicked.</li>
+<li>focus: for focused link elements.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Syntax Example</h1>
+<table class="table">
+<tr><th>Property</th><th>Example</th><th>Description</th></tr>
+<tr><td>:link</td><td>a:link { … }</td><td>Sets unvisited link characteristics.</td></tr>
+<tr><td>:visited</td><td>a:visited { … }</td><td>Sets styles for visited links.</td></tr>
+<tr><td>:hover</td><td>a:hover { … }</td><td>Sets styles when hovering over a link.</td></tr>
+<tr><td>:active</td><td>a:active { … }</td><td>Sets styles when the link is clicked.</td></tr>
+<tr><td>:focus</td><td>a:focus { … }</td><td>Sets styles for focused links.</td></tr>
+</table>
+<p><strong>Remember:</strong> The correct order is LVHA — Link, Visited, Hover, Active.</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Example code</h1>
+<div class="samplecodes">
+<pre><code>
+HTML:
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;CSS Pseudo-Classes&lt;/title&gt;
+&lt;link rel="stylesheet" href="gold.css" type="text/css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;a href="linkA.html"&gt;Link A&lt;/a&gt;&lt;br&gt;
+&lt;a href="linkB.html"&gt;Link B&lt;/a&gt;&lt;br&gt;
+&lt;a href="linkC.html"&gt;Link C&lt;/a&gt;&lt;br&gt;
+&lt;a href="linkD.html"&gt;Link D&lt;/a&gt;&lt;br&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+CSS:
+a {
+font-family: Arial;
+font-size: 15px;
+font-weight: bold;
+color: red;
+line-height: 22px;
+}
+
+a:link { color: red; }
+a:visited { color: black; }
+a:hover { color: green; }
+a:active { color: blue; }
+</code></pre>
+</div>
+
+<h1>Browser Input:</h1>
+<nav class="navbarbrowser">
+<a href="pseudoclass.html"> Click Here! </a>
+</nav>
+<p>
+Pseudo-classes can also be applied to any element, not just links — for example, to change colors when hovering over images, paragraphs, or buttons for interactivity.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<nav class="navbardownfmly">
+<a href="ICTCONTENT.html"> LESSONS 1-3 </a>
+<a href="reflection.html"> REFLECTION </a>
+</nav>
+
+</body>
+</html>

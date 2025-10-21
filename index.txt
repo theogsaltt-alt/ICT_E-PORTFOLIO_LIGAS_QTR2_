@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome!</title>
+<link rel="stylesheet" href="styling.css" type="text/css">
+</head>
+
+<body class ="homepage">
+
+<header>
+<nav>
+<div class="nav">
+<a href="personalpage.html" target="_self">✧ NEXT -› ✧</a>
+<a href="index.html" target="_self">☽ HOMEPAGE ☾</a>
+<a href="mailto:chiaramtlaltt@gmail.com" target="_blank">✉ E-MAIL ME! ✉</a>
+</div>
+</nav>
+</header>
+
+<div class="card">
+<div class="cardtxt">
+<h1>Welcome to my E-Portfolio!</h1>
+<p>Learn more about me and my lessons in ICT and AP! &#9835;</p>
+</div>
+<img src="me1.png" alt="this is a photo of me!" class="cardimg">
+
+</div>
+
+<section class="section">
+<h2 class="h2">Check out the following:</h2>
+<div class="categories">
+<div class="search-item">
+<a href="personalpage.html" target="_self"><img src="homepg1.png" alt="personal portfolio"><p>Personal Page &#10022;</p></a>
+</div>
+<div class="search-item">
+<a href="ICTCONTENT.html" target="_self"><img src="homepg2.png" alt="ICT lessons"><p>ICT Lessons &#10022;</p></a>
+</div>
+<div class="search-item">
+<a href="APCONTENTS.html" target="_self"><img src="homepg3.png" alt=" AP lessons"><p>AP Lessons &#10022;</p></a>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
