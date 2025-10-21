@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Family</title>
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body class="personalpage">
+
+<header>
+  <nav>
+    <div class="nav">
+      <a href="ICTCONTENT.html" target="_self">✧ NEXT -› ✧</a>
+      <a href="index.html" target="_self">☽ HOMEPAGE ☾</a>
+      <a href="mailto:chiaramtlaltt@gmail.com" target="_blank">✉ E-MAIL ME! ✉</a>
+    </div>
+  </nav>
+</header>
+
+<div class="containerfmly">
+
+  <!-- HEADER -->
+  <div class="headerfrnd">
+    <div style="background-color:white; text-align:center;color:#2952a3;">
+      <h1>My Family! -`♡´-</h1>
+    </div>
+  </div>
+
+  <!-- CONTENT: LEFT & RIGHT BLOCKS STACKED -->
+  <div class="contentfmly-vertical">
+
+<!--TOP-->
+    <div class="topfmly">
+<div class="scroll-container">
+  <img src="family1.jpg" alt="my family">
+  <img src="family2.jpg" alt="my family">  
+  <img src="family3.jpg" alt="my family">
+  <img src="family4.jpg" alt="my family">
+  <img src="family5.jpg" alt="my family">
+  <img src="family6.jpeg" alt="my family">
+  <img src="family7.jpeg" alt="my family">
+
+</div>
+
+    </div>
+
+    <!-- DOWN BLOCK (empty) -->
+    <div class="bottomfmly">
+  <div class="2ndblocktxt">
+<h1 style="text-align:center; color:#2952a3;">They say that when you die, your brain replays a summary of 7 minutes of your life...ִֶָ. ..𓂃 ࣪ ִֶָ🪽་༘࿐</h1>
+<p> My family will be my 7 minutes. The people who watched me grow up, the people who nourished me with care, and the people who continue to support me are the reflection of who I am today. From watching me cry as a baby to comforting me as I sobbed about all my problems, they never let go of their caring hand on my back. During the late nights, awake 'til 2 A.M., they slept in my room, guarding me and letting me know I'm not alone even in their slumber.</p>
+<p> To my dear Mama,</p>
+<p> thank you for all your love and support. Even as you battle your own hardships and struggles, you never forgot to think about me. Even on the days when my mood was sour, you stood by and tried your best to understand me. Without all the support you gave, I wouldn't be the person I am today. </p>
+<p> To my dear Papa,</p>
+<p> thank you for working hard to make sure we're all happy. On those long days when you go home exhausted, know that I notice. Know that I care and am here to support you always, just like you do for me. All the opportunities and dreams I have are attributed to you. Love you, Idol!</p>
+<p> To my dear Clem,</p>
+<p> until now, ang kulit mo parin. Seriously though, even though we both have our bad days when we argue with each other, you never forget to take care of my needs. "Ate, kumain ka na!" "Ate, lakad tayo!" "Ate, let's play a game!" Even with my busy schedule, I am able to take a break every once in a while because of you. Thank you so much.</p>
+</div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="navbardownfmly">
+    <a href="personalpage.html">✧ ABOUT ME! ✧</a>
+    <a href="personalfriends.html">☽ FRIENDS ☾</a>
+  </nav>
+
+</div>
+
+</body>
+</html>

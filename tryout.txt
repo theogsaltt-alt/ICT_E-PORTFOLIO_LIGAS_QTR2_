@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Welcome!</title>
+<link rel="stylesheet" href="tryout.css" type="text/css">
+</head>
+<body>
+<div class="playlist">
+  <h3>My Playlist</h3>
+  
+  <!-- Audio files -->
+  <div class="song">
+    <p>Song 1 - Artist Name</p>
+    <audio controls>
+      <source src="song1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  
+  <div class="song">
+    <p>Song 2 - Artist Name</p>
+    <audio controls>
+      <source src="song2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <!-- Optional video -->
+  <div class="song">
+    <p>Video 1</p>
+    <video controls width="100%">
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+</body>
+</html>

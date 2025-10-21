@@ -1,0 +1,12 @@
+<!-- personal homepage -->
+<!DOCTYPE html>
+
+<head>
+<title> Welcome! </title>
+<link rel="stylesheet" href="styling.css" type="text/css">
+<head>
+
+<body class="bgpersonal">
+
+</body>
+</html>

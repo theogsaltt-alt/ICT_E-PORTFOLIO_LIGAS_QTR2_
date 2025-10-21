@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Welcome!</title>
+<link rel="stylesheet" href="styling.css" type="text/css">
+</head>
+
+<body class="personalpage">
+
+<header>
+<nav>
+<div class="nav">
+<a href="ICTCONTENT.html" target="_self">✧ NEXT -› ✧</a>
+<a href="index.html" target="_self">☽ HOMEPAGE ☾</a>
+<a href="mailto:chiaramtlaltt@gmail.com" target="_blank">✉ E-MAIL ME! ✉</a>
+</nav>
+</header>
+
+<div class="container">
+<div class="header">
+<div class="headertxt">
+<h1>About Me! &#10022;</h1>
+</div>
+</div>
+
+
+<div class="content">
+
+<!--LEFT BLOCK -->
+
+<div class="left">
+<div class="top-content">
+<img src="me2.png" alt="Profile" width="180" height="180">
+<div class="text">
+<h3>Hello!</h3>
+<p> My name is Chiara Mariette T. Ligas. </p>
+<p> I was born on September 8, 2011 and am currently 14 years old. </p>
+</div>
+</div>
+
+<!--GALLERY-->
+
+<div class="gallery">
+<input type="radio" name="slides" id="slide1" checked>
+<div class="slide">
+<img src="music_1.jpeg" alt="music">
+<div class="navslider">
+<label for="slide4">&#10094;</label>
+<label for="slide2">&#10095;</label>
+</div>
+</div>
+
+<input type="radio" name="slides" id="slide2">
+<div class="slide">
+<video autoplay muted controls loop>
+<source src="music_2.mp4" type="video/mp4">
+</video>
+<div class="navslider">
+<label for="slide1">&#10094;</label>
+<label for="slide3">&#10095;</label>
+</div>
+</div>
+
+<input type="radio" name="slides" id="slide3">
+<div class="slide">
+<img src="music_3.jpeg" alt="music">
+<div class="navslider">
+<label for="slide2">&#10094;</label>
+<label for="slide4">&#10095;</label>
+</div>
+</div>
+
+<input type="radio" name="slides" id="slide4">
+<div class="slide">
+<video autoplay muted controls loop>
+<source src="music_4.mp4" type="video/mp4">
+</video>
+<div class="navslider">
+<label for="slide3">&#10094;</label>
+<label for="slide1">&#10095;</label>
+</div>
+</div>
+</div>
+
+<h1 style="color:#2952a3; text-align: center;"><b> &#119070; Music &#119070;</b> </h1>
+
+<!--2ND TEXT BLOCK -->
+
+<div class="left2ndblock">
+<div class="2ndblocktxt">
+<h3>"Music can change the world because it can change people." - Ludwig van Beethoven</h3>
+<p> Music is one of my favorite pastimes! I love listening to music, playing instruments, and even composing every once in a while. I don't have a favorite genre, I listen to a little bit of everything!</p>
+<p> I play the following instruments: </p>
+<ul>
+<li> Violin &#127931; </li>
+<li> Electric Guitar &#x1F3B8; </li>
+<li> Classical Guitar <!-- no classical guitar entity :( --> </li>
+</ul>
+<p> Below is a playlist of my current top songs! </p>
+</div>
+<div class="2ndblockimg">
+<img src="musicc.jpg" alt="kitty cat listening to music" width="180" height="180" style="border-radius:15px;">
+<img src="musiccc.jpg" alt="similar to my guitar" width="180" height="180" style="border-radius:15px;"></div> 
+</div>
+
+<!--PLAYLIST-->
+<h1 style="color:#2952a3; text-align: center;"> ♫⋆｡♪ My Playlist₊˚♬ ﾟ.</h1>
+<div class="playlist-scroll">
+
+<div class="song">
+<p>Replay - SHINee 🎧ྀི♪⋆.✮</p>
+<audio controls>
+<source src="REPLAY_MUSIC.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="song">
+<p>Too Little, Too Late - Laufey 🎧ྀི♪⋆.✮</p>
+<audio controls>
+<source src="LAUFEY_MUSIC.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="song">
+<p>Smells Like Teen Spirit - Nirvana 🎧ྀི♪⋆.✮</p>
+<audio controls>
+<source src="NIRVANA_MUSIC.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="song">
+<p>Non-Stop - Hamilton (Original Broadway Cast) 🎧ྀི♪⋆.✮</p>
+<audio controls>
+<source src="HAMILTON_MUSIC.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="song">
+<p>Runaway Baby - Bruno Mars 🎧ྀི♪⋆.✮</p>
+<audio controls>
+<source src="RUNAWAYBBY_MUSIC.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+</div>
+</div>
+
+<!--RIGHT BLOCK-->
+
+<div class="right">
+<div class="library">
+<img src="library.jpg" alt="books" style="width:100%;">
+<h1 class="txtimg" style="color: #ffffff; background-color:#2952a3;"> ⋅˚₊‧ ୨🕮୧ ‧₊˚ ⋅ Literature ⋅˚₊‧ ୨🕮୧ ‧₊˚ ⋅</h1>
+</div>
+<h3 style="color:#2952a3;"> "A reader lives a thousand lives before he dies . . . The man who never reads lives only one" by George R.R. </h3>
+<p style="color:#2952a3;"> If you truly knew me, you'd know I love literature. Some of my favorite genres are mythology, mystery, thriller, YA, and fantasy. One of my biggest dreams is to build a library in the house I'd someday own. To me, reading is way of exploring new worlds, worlds I might not even reach in my lifetime.  </p>
+
+<!--LIBRARY-->
+<h1 style="color:#2952a3; text-align: center;"> Favorites ✎ᝰ.ᐟ⋆⑅˚₊</h1>
+<div class="library-scroll">
+
+<div class="librarytxt">
+<h3> The Odyssey - Homer 𐙚‧₊˚📜✩ </h3>
+<img src="odyssey.jpg" class="libraryimg" alt="theodyssey">
+</div>
+
+<div class="librarytxt">
+<h3> The Iliad - Homer 𐙚‧₊˚📜✩ </h3>
+<img src="theiliad.jpg" class="libraryimg" alt="theiliad">
+</div>
+
+<div class="librarytxt">
+<h3> Percy Jackson and The Olympians (series) - R. Riordan 𐙚‧₊˚📜✩ </h3>
+<img src="percyjackson.jpg" class="libraryimg" alt="percyjackson">
+</div>
+
+<div class="librarytxt">
+<h3> Harry Potter (series) - J.K. Rowling 𐙚‧₊˚📜✩ </h3>
+<img src="hp.jpg" class="libraryimg" alt="harrypotter">
+</div>
+
+<div class="librarytxt">
+<h3> Before The Coffee Gets Cold (series) - Toshikazu Kawaguchi 𐙚‧₊˚📜✩ </h3>
+<img src="bftcgc.jpg" class="libraryimg" alt="befforethecoffeegetscold">
+</div>
+
+<div class="librarytxt">
+<h3> The Song of Achilles - Madeline Miller 𐙚‧₊˚📜✩ </h3>
+<img src="tsoa.jpg" class="libraryimg" alt="thesongofachilles">
+</div>
+
+<div class="librarytxt">
+<h3> Omniscient Reader's Viewpoint - Sing Shong 𐙚‧₊˚📜✩ </h3>
+<img src="ORV.jpg" class="libraryimg" alt="omniscient readers viewpoint">
+</div>
+</div>
+<h1 style="color:#2952a3; text-align: center;"> Vibe Board ོ༘₊⁺☀︎₊⁺⋆.˚</h1>
+<p style="color:#2952a3; text-align: center;"> Things, characters, songs that descibre me! </p>
+<img src="vibeboard.png" alt="vibe board" style="width: 450px; height: 200px; border-radius: 15px;">
+
+</div>
+</div>
+
+
+<header>
+<nav>
+<div class="navbardown">
+<a href="personalfriends.html" target="_self">✧ FRIENDS ✧</a>
+<a href="personalfamily.html" target="_self">☽ FAMILY ☾</a>
+</nav>
+</header>
+
+</body>
+</html>
