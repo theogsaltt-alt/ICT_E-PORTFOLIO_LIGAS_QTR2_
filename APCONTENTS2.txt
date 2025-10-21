@@ -1,0 +1,380 @@
+<!--AP CONTENTS-->
+<!DOCTYPE html>
+<head>
+<title>ICT Lessons</title>
+<link rel="stylesheet" href="lessons.css" type="text/css">
+</head>
+<body class="body">
+
+<header>
+<nav>
+<div class="nav">
+<a href="ICTCONTENT.html" target="_self">✧ <- PREVIOUS ✧</a>
+<a href="index.html" target="_self">☽ HOMEPAGE ☾</a>
+<a href="mailto:chiaramtlaltt@gmail.com" target="_blank">✉ E-MAIL ME! ✉</a>
+</div>
+</nav>
+</header>
+
+<div class="container">
+
+
+<div class="header">
+<div style="background-color:white; text-align:center;color:#2952a3;">
+<h1> AP - YUNIT II </h1>
+</div>
+</div>
+
+<div class="lessons">
+
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> ARALIN 4: EKWILIBRIYO </h1>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h2 > ⪼------➢ EKWILIBRIYO ✎ᝰ. </h2>
+<p>↳ Ang halaga ng produkto o serbisyo na gustong bilhin ng mga mamimili (quantity demanded) ay eksaktong katumbas ng halagang gustong ibenta ng mga producer (quantity supplied) </p>
+<p>↳ Pagkakaroon ng kasunduan sa presyo at quantity ng nagtitinda at mamimili</p>
+</div>
+<div class="textblock">
+<img src="ekwilibriyo.jpeg" alt="marketplace" stye="border-radius: 15px;">
+<p> image credits:Team, C. (2024, November 14). Equilibrium quantity. Corporate Finance Institute. https://corporatefinanceinstitute.com/resources/economics/equilibrium-quantity/</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Supply at Demand sa Ekwilibriyo </h1> 
+<p>↳ Sa bawat galaw ng supply o demand ay makakaapekto sa ekwilibriyo </p>
+<p>↳ Epekto ng pagtaas ng gastusin sa produksiyon: Kapagtumaas ang mga kailangang gamit sa produksiyon mas magmamahal ang produkto</p>
+</div>
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Pagbabago sa demand at supply</h1> 
+<p>↳ Mayroong pagbabago sa demand, ngunit walang pagbabago sa supply: Tumaas ang presyo ngunit hindi dahil doon kaya binabaan ang presyo kung hindi dahil nagsawa ang mga mamimili kaya binabaan ulit ang presyo upang bumili ulit ang mga tao. </p>
+</div>
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Magkasabay na pagbabago sa demand at supply</h1> 
+<p>↳ Parehas na konsepto ang nakakaapekto sa dalawa katulad ng sabay na pagbabago sa panlasa at pagtaas ng gastusin sa produksiyon</p>
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<ul> 
+<li> P↑ - D↓ - S↑ - Surplus</li>
+<li>P↓ - D↑ - S↓ - Shortage</li>
+<li>QD = QS -> Equilibrium</li>
+<li>QD ≠ QS -> Disequilibrium</li>
+<li>QD < QS -> Surplus</li>
+<li>QD > QS -> Shortage</li>
+</ul>
+</div>
+</div>
+</div>
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> ARALIN 5: PAMILIHAN </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h2 > ⪼------➢ PAMILIHAN ✎ᝰ. </h2>
+<p>↳Tumutukoy kung saan nakakamit ng mga mamimili ang sagot sa kanilang mga katanungan at pangangailangan. </p>
+</div>
+<div class="textblock">
+<img src="market.jpeg" alt="marketplace" stye="border-radius: 15px;">
+<p> image credits:https://www.collinsdictionary.com/dictionary/english/market</p>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Tatlong Elemento ng Pamilihan: </h1> 
+<ul>
+<li> Mamimili </li>
+<li> Produsyer </li>
+<li> Konsyumer </li>
+</ul>
+</div>
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Pagkakaiba sa Anyo ng Pamilihan </h1> 
+<ul>
+<li> Bilang at laki ng prodyuser o konsumer</li> 
+<li> Uri ng produkto o serbisyo</li> 
+<li> Kontrol sa presyo</li> 
+<li> Kontrol sa pagpasok sa pamilihan</li> 
+<li> Paggamit ng di-presyong kompetisyon.</li>
+</ul>
+</div>
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Uri ng Pamilihan </h1> 
+<ul>
+<li> Lokal </li> 
+<li> Panrehiyon</li> 
+<li> Pambansa</li> 
+<li> Pandaigdigan</li> 
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Ganap na Kompetisyon</h1> 
+<p>↳ Ang ganap na kompetisyon ay isang kalagayan ng pamilihan kung saan napakarami ang kalahok na prodyuser at
+konsyumer. Dahil sa dami ng kalahok, walang sinuman ang may kakayahang kontrolin ang presyo.</p>
+<p>↳ Ang presyo ng produkto ay awtomatikong itinatakda ng pamilihan sa pamamagitan ng ugnayan ng demand at suplay. </p>
+<p>↳  Napakaraming kalahok sa pamilihan kaya’t walang iisang kompanya ang makakakontrol sa presyo ng produkto. </p>
+<p>↳ Ang mga produkto ay halos pare-pareho, tulad ng bigas, asukal, at gulay, kaya’t hindi mahalaga ang tatak o brand. </p>
+<p>↳ Ang mga prodyuser ay sumusunod lamang sa presyong itinatakda ng merkado. Hindi sila maaaring magtakda ng sariling presyo. </p>
+<p>↳ Walang hadlang sa sinumang nais magsimula o tumigil ng negosyo. </p>
+<p>↳ Ang merkado ang siyang nagtatakda ng presyo batay sa interaksyon ng demand at suplay. </p>
+</div>
+<div class="textblock" style="background-color:#99ccff; padding: 15px; border-radius: 15px;">
+<h1 style="background-color: white; border-radius: 15px;"> ˗ˏˋ Di-Ganap na Kompetisyon</h1> 
+<p>↳ Sa di-ganap na kompetisyon, mayroong hindi pagkakapantay-pantay sa bilang ng kalahok, uri ng produkto, at antas ng kontrol sa presyo. </p>
+<p>↳ May mga pagkakataon na iisa lamang ang prodyuser, kakaunti ang kalahok, o kaya’y may malawakang pag-aanunsyo upang makuha ang atensyon ng konsyumer. </p>
+</div>
+</div>
+</div>
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> ESTRUKTURA </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1> ˗ˏˋ Monopolyo </h1> 
+<ul>
+<li>Tanging isang kompanya lamang ang gumagawa at nagbebenta ng produkto o serbisyo.</li>
+<li>Kadalasan, walang kahalintulad na produkto na maaaring pamalit dito, tulad ng tubig o kuryente mula sa pangunahing
+kumpanya.</li>
+<li>Ang kompanya mismo ang nagtatakda ng presyo dahil sila lamang ang pinagkukunan ng produkto.</li>
+<li> Mataas ang hadlang sa pagpasok ng bagong negosyo, maaaring dahil sa malalaking puhunan o regulasyon ng
+pamahalaan.</li>
+<li>Maaring gamitin upang lalo pang palakasin ang kanilang impluwensya o hindi na kailangan kung wala naman silang
+katunggali.</li>
+</ul>
+<h1>  ˗ˏˋ Oligopolyo</h1> 
+<ul>
+<li>Limitado lamang ang bilang ng kompanya sa isang industriya, tulad ng industriya ng langis o telekomunikasyon.</li>
+<li> Maaaring halos pareho (tulad ng gasolina) o may kaunting pagkakaiba (tulad ng softdrinks).</li>
+<li>Malaki ang impluwensya ng bawat kompanya sa presyo ng produkto, at madalas ay nakikialam sa galaw ng iba.</li>
+<li>Kadalasan ay nangangailangan ng malaking kapital at teknolohiya upang makapasok.</li>
+<li> May mga pagkakataon na nagkakasundo ang mga kompanya upang kontrolin ang presyo at hindi bumaba ang kanilang</li>
+kita.
+</ul>
+<h1> ˗ˏˋ Monopolistikong Kompetisyon</h1> 
+<ul>
+<li>Hindi kasing dami ng sa ganap na kompetisyon, ngunit hindi rin kakaunti tulad ng oligopolyo.</li>
+<li> Bagama’t halos pareho ang gamit ng produkto, binibigyan ito ng kakaibang tatak, disenyo, o kalidad upang maging kaiba
+sa iba.</li>
+<li>Matindi ang kumpetisyon lalo na sa pag-aanunsyo at promosyon.</li>
+<li>May kakayahan ang mga prodyuser na magtakda ng bahagyang mas mataas na presyo batay sa kalidad o tatak ng
+kanilang produkto.</li>
+<li>Hindi gaanong mataas ang hadlang sa pagpasok ng bagong negosyo.</li>
+</ul>
+<h1>  ˗ˏˋ Monopsonyo</h1> 
+<ul>
+<li>Tanging isang malaking mamimili ang bumibili mula sa maraming prodyuser.</li>
+<li>Dahil iisa lang ang bumibili, napipilitan ang mga prodyuser na ibenta ang kanilang produkto sa presyong dikta ng
+konsyumer.</li>
+<li>Ang konsyumer ang may malaking impluwensya sa presyo at dami ng produktong bibilhin.</li>
+<li>Halimbawa: Pamahalaan na siyang bumibili ng armas o suplay para sa mga proyektong pambansa.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> MGA KUMPANYA NA: </h1>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<div class="containerimg">
+<img src="monopoly.png" alt="Avatar" class="image">
+<div class="overlay">
+<div class="text"> MONOPOLYO </div>
+</div>
+</div>
+<div class="containerimg">
+<img src="oligopolyo.jpg" alt="Avatar" class="image">
+<div class="overlay">
+<div class="text"> OLIGOPOLYO </div>
+</div>
+</div>
+</div>
+<div class="textblock">
+<div class="containerimg">
+<img src="monopolistic.jpg" alt="Avatar" class="image">
+<div class="overlay">
+<div class="text">
+<pre> 
+MONOPOLISTIKONG
+KOMPETISYON
+</pre></div>
+</div>
+</div>
+<div class="containerimg">
+<img src="monopsony.jpeg" alt="Avatar" class="image">
+<div class="overlay">
+<div class="text"> MONOPSONYO </div>
+</div>
+</div>
+</div>
+</div>
+<p align="center"> Image credits: https://www.google.com </p>
+</div>
+
+<h1 style="font-size: 50px; border: 5px dashed #2952a3; background-color: white; border-radius: 15px; box-shadow: 0 0 20px rgba(100,120,200,0.5);"> ARALIN 6: PAGTAKDA NG PRESYO </h1>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1> Price Control </h1>
+<ul>
+<li>Ang price control o pagkontrol sa presyo ay isang patakarang pang-ekonomiya na isinasagawa ng pamahalaan upang
+itakda ang pinakamataas at/o pinakamababang presyo ng mga produkto at serbisyo sa pamilihan. 
+<li>Layunin nitong mapanatili ang patas na kalakalan sa pagitan ng mga konsyumer at prodyuser, at maiwasan ang labis na pagtaas o
+pagbagsak ng presyo na maaaring makasira sa ekonomiya.
+</ul>
+</div>
+<div class="textblock">
+<h1>Layunin ng Price Control</h1>
+<ul>
+<li>Proteksyunan ang mga konsyumer mula sa mataas na presyo ng mga bilihin.
+<li>Tiyakin na hindi malulugi ang mga prodyuser.
+<li>Panatilihin ang kaayusan ng ekonomiya.
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>National Price Coordination Council (NPCC)</h1>
+<ul>
+<li>Ang NPCC ay ang pangunahing ahensya ng pamahalaan na nagbabantay sa paggalaw ng presyo ng mga produkto at
+serbisyo. 
+<li>Binubuo ito ng mga kinatawan mula sa iba't ibang kagawaran tulad ng Department of Trade and Industry (DTI),
+Department of Agriculture (DA), at iba pang ahensya na may kinalaman sa presyo at suplay ng mga produkto.
+</ul>
+</div>
+<div class="textblock">
+<h1>Tungkulin ng NPCC:</h1>
+<ul>
+<li>Magtakda ng mga panuntunan sa price control.
+<li>Magbigay ng rekomendasyon sa Pangulo ukol sa price ceiling at price floor.
+<li>Magsagawa ng price monitoring upang makita ang mga pagbabago sa merkado.
+<li>Magpatupad ng mga parusa sa mga negosyanteng lalabag sa itinakdang presyo.
+</ul>
+</div>
+</div>
+</div>
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Price Ceiling</h1>
+<ul>
+<li>Ang price ceiling ay ang pinakamataas na presyo na maaaring ipataw sa isang produkto o serbisyo. 
+<li>Itinakda ito ngpamahalaan upang maprotektahan ang mga mamimili laban sa mga negosyanteng maaaring samantalahin ang sitwasyon
+upang magtaas ng presyo nang labis.
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Price Freeze</h1>
+<ul>
+<li>Ang price freeze ay tumutukoy sa pansamantalang hindi paggalaw o pagbabago ng presyo ng mga produkto at serbisyo
+sa isang takdang panahon. 
+<li>Ang layunin nito ay panatilihing matatag ang presyo at proteksyunan ang mamimili sapanahon ng krisis. 
+<li>Layunin nito panatilihing matatag ang presyo at proteksyunan ang mamimili sa panahon ng krisis.
+</ul>
+</div>
+<div class="textblock">
+<h1>Kailan Ipinatutupad:</h1>
+<ul>
+<li>State of Calamity: Kapag may kalamidad tulad ng bagyo, lindol, o pandemya upang maiwasan ang pananamantala sa
+mga mamimili.
+<li>Mabilis na Pagtaas ng Inflation:Kapag biglaang tumataas ang presyo ng mga pangunahing bilihin, ginagamit ito upang
+makontrol ang galaw ng presyo habang inaayos ng pamahalaan ang supply.
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Mabuting Epekto ng Price Control</h1>
+<ul>
+<li>Abot-kayang presyo
+<li>Napoproteksyunan ang karapatan ng mga mahihirap.
+<li>Napapanatili ang katatagan ng pamilihan.
+</div>
+<div class="textblock">
+<h1>Hindi Mabuting Epekto ng Price Control</h1>
+<ul>
+<li>Nagkukulang ang supply ng produkto kapag bumababa ang presyo.
+<li>Nawawalan ng gana ang mga prodyuser.
+<li>Mataas ang tiyansa na magkaroon ng black market.
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="containerlessons">
+<div class="contentvertical">
+<div class="textblock">
+<h1>Price Support</h1>
+<ul>
+<li>Ang price support ay isang patakarang ipinatutupad upang proteksyunan ang mga prodyuser laban sa labis na pagbaba
+ng presyo ng kanilang produkto. 
+<li>Sa ganitong paraan, natitiyak na hindi sila malulugi at patuloy silang makapagtatanim, makagagawa, o makapaglilingkod sa merkado.
+</ul>
+</div>
+<div class="textblock">
+<h1>Floor Price</h1>
+<ul>
+<li>Ang floor price ay ang pinakamababang presyo na itinakda ng pamahalaan para sa mga produkto at serbisyo. Kilala rin ito
+bilang price support o minimum price policy. 
+<li>Layunin nito ay bigyan ng proteksyon ang mga prodyuser, lalo na sa sektor
+ng agrikultura, at panatilihin ang produksiyon sa isang antas na sapat upang tugunan ang pangangailangan ng bansa.
+<h1> Katangian:</h1>
+<p>Mas mataas ito kaysa sa equilibrium price upang matiyak na may sapat na kita ang mga prodyuser.
+Kapag masyadong mataas ang floor price, maaaring magkaroon ng surplus o sobrang supply dahil hindi lahat ng
+konsyumer ay kayang bumili.</p>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<nav class="navbardownfmly">
+<a href="APCONTENTS.html"> ARALIN 1-3 </a>
+<a href="ICTCONTENT.html"> ICT CONTENTS</a>
+</nav>
+
+
+
+</body>
+</html>

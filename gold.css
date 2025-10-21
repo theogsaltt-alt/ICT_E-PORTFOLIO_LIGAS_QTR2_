@@ -1,0 +1,12 @@
+a {
+font-family: Arial;
+font-size: 15px;
+font-weight: bold;
+color: red;
+line-height: 22px;
+}
+
+a:link { color: red; }
+a:visited { color: black; }
+a:hover { color: green; }
+a:active { color: blue; }
